@@ -1,10 +1,8 @@
-# AstroWeather<!-- omit in toc -->
+# Weather Forecast<!-- omit in toc -->
 
 ![GitHub release](https://img.shields.io/badge/Release-v0.42.3-blue)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 ![hacs installs](https://img.shields.io/badge/dynamic/json?color=41BDF5&logo=home-assistant&label=Installs&cacheSeconds=15600&url=https://analytics.home-assistant.io/custom_integrations.json&query=$.astroweather.total)
-
-This is a *Custom Integration* for [Home Assistant](https://www.home-assistant.io/) 2023.9+. It uses the forecast data from 7Timer! and Met.no to create sensor data for Home Assistant. It uses the [7Timer!-API](http://www.7timer.info/doc.php?lang=en#machine_readable_api) to pull data from 7Timer! and the [Locationforecast-API](https://api.met.no/weatherapi/locationforecast/2.0/documentation) to pull from MET Norway Weather.
 
 ![alt text](images/lovelace.png "Live")
 
@@ -208,6 +206,3 @@ tap_action:
         entity: image.uptonight
 ```
 
-Result:
-
-![alt text](images/lovelace-uptonight.png "Uptonight")
